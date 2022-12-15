@@ -15,4 +15,4 @@ const port = 3000;
 app.listen(port, () => {
     db.sync();
     console.log(`Movie Teatre API is live at https://localhost${port}`);
-})
+});
